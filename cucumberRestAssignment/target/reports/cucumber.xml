@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="8" skipped="0" total="8">
+    <suite duration-ms="6641" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="6641" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="To check the functionality for creation of new user">
+                <test-method duration-ms="2826" finished-at="2022-05-24T12:22:21.623930900Z" name="Create new user" started-at="2022-05-24T12:22:18.774596600Z" status="PASS"/>
+            </class>
+            <class name="To retrieve the data for particular user using ID">
+                <test-method duration-ms="589" finished-at="2022-05-24T12:22:22.227543700Z" name="Get user detail with the help of his/her ID" started-at="2022-05-24T12:22:21.637212600Z" status="PASS"/>
+            </class>
+            <class name="To check and validate login functionality with positive scenario">
+                <test-method duration-ms="591" finished-at="2022-05-24T12:22:22.824101300Z" name="Login with a positive set of credential" started-at="2022-05-24T12:22:22.232528600Z" status="PASS"/>
+            </class>
+            <class name="To check and validate login functionality with negative scenario">
+                <test-method duration-ms="611" finished-at="2022-05-24T12:22:23.442380Z" name="Login with a nagative set of credential" started-at="2022-05-24T12:22:22.830583200Z" status="PASS"/>
+            </class>
+            <class name="Negative Scenario : To get response after giving wrong URI">
+                <test-method duration-ms="574" finished-at="2022-05-24T12:22:24.022777200Z" name="Get error message on using wrong URI" started-at="2022-05-24T12:22:23.447411Z" status="PASS"/>
+            </class>
+            <class name="To test future date scenario">
+                <test-method duration-ms="0" finished-at="2022-05-24T12:22:24.026764Z" name="Validate future date" started-at="2022-05-24T12:22:24.025766900Z" status="PASS"/>
+            </class>
+            <class name="To check and validate login functionality with negative scenario">
+                <test-method duration-ms="600" finished-at="2022-05-24T12:22:24.631170Z" name="Get response code on providing wrong ID for user" started-at="2022-05-24T12:22:24.029754Z" status="PASS"/>
+            </class>
+            <class name="To successfuly register">
+                <test-method duration-ms="606" finished-at="2022-05-24T12:22:25.242038Z" name="Register with a positive set of credential" started-at="2022-05-24T12:22:24.634282Z" status="PASS"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>
